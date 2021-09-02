@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="letter-d.png">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Divine Obeten | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--The Navbar-->
+    <nav class="navbar">
+        <div class="brand-title">DO</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>        
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>   
+    <!--The Home page of the porfolio-->
+    <section id=hero class="home">
+        <div class="overlay"></div>
+        <div class="overlay-shadow"></div>
+        <div class="main-content">
+            <h4>Hi There,</h4>
+            <h2>I'M DIVINE OBETEN.</h2>
+            <h3>I'M A FRONTEND DEVELOPER.</h3>
+            <div class="resume-btn">
+                <a href="#" class="btn-cta">RESUME</a>
+            </div>
+        </div>    
+    </section>
+    <!-- The About section-->
+    <section id="about" class="s-about">
+        <div class="about-headercontainer">
+            <div class="about-header">
+                <h4>ABOUT</h4>
+                <p class="p1">Personal Info</p>
+                <p class="p2">Learn more About me</p>
+            </div>
+                <div class="about-main">
+                <div class="about-left">
+                <p class="m-header">Hello!</p>
+                <p class="about-self">  
+                    My Name is Divine Obeten, I am a Frontend Developer who is passionate about building Websites and Web Applications, I also take delight in improving my skills daily and learning new technologies to make the web work better. <br>
+                <p class="about-self">
+                    I will really love to hear from you, be it a Job Opportunity or any feedback(s) on areas I can improve on.
+                </p>  
+                </p>
+                </div>
+                <div class="skill-section">
+                <h3 class="skill-header">SKILLS</h3>
+                <ul class="skills">
+                    <li class="skill">HTML</li>
+                    <li class="skill">CSS</li>
+                    <li class="skill">JAVASCRIPT</li>
+                    <li class="skill">GIT</li>
+                    <!--<li class="skill">REACT</li>-->
+                </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Project Display Section-->
+    <section id="project">
+        <div class="project-section">
+        <div class="project-header">
+            <h4>PROJECTS</h4>
+            <p class="p3">Newest Projects</p>
+            <p class="p2">Here are some of my completed projects</p>
+        </div>
+        <div class="project-display">
+            <div class="projects">
+                <img src="/coming.png" alt="Project Image" class="project-image">
+                <h3 class="display-header">PROJECT 1</h3>
+                <div class="description">
+                <p class="p-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, illo ullam consectetur laudantium similique ipsa temporibus ut ipsam nemo aliquid voluptates odio excepturi perferendis rerum, eveniet ex deserunt eius debitis.</p>
+                </div>
+                <div class="live-div">
+                    <a href="#" class="live-btn">
+                        <button class="site-btn">Live Site</button>
+                    </a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="/coming.png" alt="Project Image" class="project-image">
+                <h3 class="display-header">PROJECT 2</h3>
+                <div class="description">
+                <p class="p-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio iste accusantium aliquid, fuga unde quia dignissimos itaque magnam voluptates cupiditate quas neque nobis ipsam maiores doloremque, iure aspernatur aut non?</p>
+                </div>
+                <div class="live-div">
+                    <a href="#" class="live-btn">
+                        <button class="site-btn">Live Site</button>
+                    </a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="/coming.png" alt="Project Image" class="project-image">
+                <h3 class="display-header">PROJECT 3</h3>
+                <div class="description">
+                <p class="p-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi ipsam porro ullam animi libero ducimus. Repellendus, voluptas aliquam debitis impedit doloribus porro iure facilis, fuga perferendis vero quidem dolorum.</p>
+                </div>
+                <div class="live-div">
+                <a href="#" class="live-btn">
+                    <button class="site-btn">Live Site</button>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--Contact Me-->
+    <section id="contact">
+        <div class="s-contact">
+            <div class="overlay"></div>
+            <div class="contact-header">
+                <h4>CONTACT</h4>
+                <p class="p-contact">Do you want to work with me?</p>
+            </div>
+            <div class="form">
+                <form action="https://formspree.io/f/xnqlldar" method="post" class="left">
+                    <fieldset>
+                        <h4>Fill and Submit this for and i'll get back to you as soon as possible</h4>
+                        <div class="form-field">
+                            <input type="text" name="name" id="contactname" placeholder="Name" minlength="2" required aria-required="true" class="contact-width">
+                        </div>
+                        <div class="form-field">
+                            <input type="email" name="Email" name="_replyto" id="contactmail" placeholder="E-mail" required aria-required="true" class="contact-width">
+                        </div>
+                        <div class="form-field">
+                            <input type="text" name="Subject" id="contactSubject" placeholder="Subject"    required aria-required="true" class="contact-width">
+                        </div>
+                        <div class="form-field">
+                            <textarea type="text" name="message" id="contactmessage" placeholder="message" rows="10" cols="50" class="full-width" required aria-required="true"></textarea>
+                        </div>
+                        <div class="submit-div">
+                            <button type="submit" class="submit-btn">submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+                <div class="right">
+                    <div>
+                        <h4>E-mail</h4>
+                        <p>deevynobeten@gmail.com</p>
+                    </div>
+                    <div>
+                        <h4>Phone Number</h4>
+                        <p>(+234)8036409211</p>
+                    </div>
+                    <div>
+                        <h4>Address</h4>
+                        <p>Calabar, Cross River State. Nigeria.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="footer">
+        <div class="accounts">
+            <div class="gmail">
+                <a href="mailto:deevynobeten@gmail.com"><img src="/icons8-gmail-48.png" alt="" srcset="" class="c-icons"></a>
+            </div>
+            <div class="github">
+                <a href="https://github.com/Deevyn9"><img src="/github.png" alt="" srcset="" class="c-icons"></a>
+            </div>
+            <div class="dev">
+                <a href="https://dev.to/deevyn9"><img src="/icons8-dev-32.png" alt="" srcset="" class="c-icons"></a>
+            </div>
+            <div class="linkedin">
+                <a href="https://linkedin.com/in/divine-obeten-73699a1a8"><img src="/icons8-linkedin-50.png" alt="" srcset="" class="c-icons"></a>
+            </div>
+        </div>
+    </div>
+    </footer>
+    </main>
+</body>
+<script src="main.js"></script>
+</html>

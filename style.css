@@ -412,6 +412,10 @@ fieldset {
         margin: 0 2px 10px 0;
     }
     /**************************MOBILE PROJECT******************************/
+    .projects {
+        width: 250px;
+    }
+ 
     .project-display {
         width: 100%;
         padding: 30px;

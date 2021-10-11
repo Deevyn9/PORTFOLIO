@@ -225,6 +225,7 @@ h3 {
 .projects {
     background-color: rgb(230, 226, 226);
     margin: 10px;
+    width: 400px;
     border-radius: 20px;
     color: #333;
 }

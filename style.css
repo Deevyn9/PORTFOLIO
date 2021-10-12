@@ -426,6 +426,7 @@ fieldset {
     /**************************MOBILE PROJECT******************************/
     .projects {
         width: 60%;
+        padding-bottom: 30px;
     }
  
     .project-display {

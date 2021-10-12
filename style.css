@@ -425,7 +425,7 @@ fieldset {
     }
     /**************************MOBILE PROJECT******************************/
     .projects {
-        width: 600px;
+        width: 70%;
     }
  
     .project-display {
@@ -433,7 +433,8 @@ fieldset {
         padding: 30px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
     }    
 
     /**************************MOBILE CONTACT******************************/

@@ -425,7 +425,7 @@ fieldset {
     }
     /**************************MOBILE PROJECT******************************/
     .projects {
-        width: 300px;
+        width: 80%;
     }
  
     .project-display {
@@ -453,6 +453,12 @@ fieldset {
         padding: 0;
         color: black;
         width: 90%;
+    }
+}
+
+@media (max-width: 425px) {
+    .projects {
+        width: 300px;
     }
 }
 

@@ -13,6 +13,7 @@ body {
     color: white;
     font-family: 'roboto', sans-serif;
 
+    --nav-bg: rgba(0, 0, 0, 0.1);
     --toggle-btn: url(/icon-hamburger.svg);
 }
 
@@ -20,13 +21,17 @@ body {
 .navbar {
     width: 100%;
     height: 7vh;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: var(--nav-bg);
     position: absolute;
     top: 0;
     z-index: 500;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.blacl {
+    --nav-bg: hsl(0, 0%, 0%);
 }
 
 .brand-title {

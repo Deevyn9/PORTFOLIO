@@ -2,6 +2,7 @@ const toggleButton = document.getElementsByClassName("toggle-button")[0]
 const navbarLinks = document.getElementsByClassName("navbar-links")[0]
 
 toggleButton.addEventListener('click', () => {
-    document.body.classList.toggle("close")
+    document.body.classList.toggle("close");
+    document.body.classList.toggle("black");
     navbarLinks.classList.toggle('active');
 });

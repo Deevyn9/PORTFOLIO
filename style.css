@@ -5,6 +5,7 @@
 html {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
     padding: 0;
     color: white;
     font-family: 'roboto', sans-serif;
-    scroll-behavior: smooth;
 
     --nav-bg: rgba(0, 0, 0, 0.1);
     --toggle-btn: url(/icon-hamburger.svg);

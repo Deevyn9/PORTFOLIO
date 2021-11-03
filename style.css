@@ -21,7 +21,7 @@ body {
 /***********************NAVBAR STYLING***********************/
 .navbar {
     width: 100%;
-    height: 7vh;
+    height: 8vh;
     background-color: var(--nav-bg);
     position: absolute;
     top: 0;
@@ -60,11 +60,11 @@ body {
 }
 
 .navbar-links li:hover {
-    background-color: rgba(100, 100, 100, 0.4);
+    background-color: rgba(177, 4, 128, 0.6);
 }
 
 .navbar-links li:active {
-    color: #c83cb9;
+    color: #af0a73fc;
 }
 
 .toggle-button {
@@ -110,7 +110,7 @@ body {
 }
 
 h4 {
-    color: #c83cb9;
+    color: #af0a73fc;
 }
 
 h3 {
@@ -124,15 +124,25 @@ h3 {
 }
 
 .resume-btn {
-    border: 2px solid white;
+    border: 2px solid #af0a73fc;
+    height: 40px;
     width: 90px;
-    padding: 10px;
     margin-top: 20px;
 }
 
 .btn-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     text-decoration: none;
+    background-color: #af0a73fc;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-cta:hover {
+    background-color: transparent;
 }
 
 /*****************ABOUT SECTION************************/
@@ -259,20 +269,30 @@ h3 {
 }
 
 .live-div {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    padding: 10px 20px 20px 20px;
+    padding: 10px 30px 20px 30px;
 }
 
-.site-btn {
-    background-color: rgb(175, 175, 175);
+.git-live, .live-link {
+    width: 45%;
+}
+
+.repo-link, .site-btn {
+    background-color: #af0a73fc;
     padding: 10px;
-    width: 90%;
+    color: rgb(233, 210, 210);
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
     cursor: pointer;
     border-radius: 10px;
-    border: 2px solid rgb(175, 175, 175);
+    border: 2px solid #af0a73fc;
 }
 
-.site-btn:hover {
+.repo-link:hover,.site-btn:hover {
+    color: #af0a73fc;
     background-color: rgb(237, 236, 236);
 }
 
@@ -344,7 +364,7 @@ fieldset {
 
 /**********************FOOTER***********************/
 .footer {
-    border-top: 2px solid #c83cb9;
+    border-top: 2px solid #af0a73fc;
     width: 100%;
 }
 
@@ -385,10 +405,11 @@ fieldset {
     .navbar-links ul {
         justify-content: center;
         align-content: flex-start;
-        height: 92vh;
+        height: 93vh;
         width: 100%;
         background-color: black;
         flex-direction: column;
+        
     }
 
     .navbar-links li {
@@ -404,7 +425,7 @@ fieldset {
 
     .navbar-links.active {
         display: flex;
-        transition: all 0.3s ease-in-out;;
+        
     }
     /***********************MOBILE-ABOUT***************************/
     .p1 {

@@ -354,12 +354,19 @@ fieldset {
 }
 
 .submit-btn {
-    background-color: rgb(175, 175, 175);
+    color: white;
+    background-color: #af0a73fc;
     padding: 10px;
     width: 90%;
     cursor: pointer;
+    font-weight: 700;
     border-radius: 10px;
-    border: 2px solid rgb(175, 175, 175);
+    border: 2px solid #af0a73fc;
+}
+
+.submit-btn:hover {
+    color: #af0a73fc;
+    background-color: white;
 }
 
 /**********************FOOTER***********************/

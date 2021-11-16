@@ -123,11 +123,20 @@ h3 {
     z-index: 2;
 }
 
+.work-resume {
+    display: flex;
+    flex-direction: row;
+}
+
 .resume-btn {
     border: 2px solid #af0a73fc;
     height: 40px;
     width: 90px;
-    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ii {
+    margin-left: 20px;
 }
 
 .btn-cta {
@@ -513,4 +522,12 @@ fieldset {
             padding: 0px 10px 0 10px;
         }
         
+}
+
+.a {
+    background-color: rgba(256, 256, 256, 0.05);
+    justify-content: space-evenly;
+    align-content: flex-start;
+    margin-left: 0;
+    padding: 0;
 }

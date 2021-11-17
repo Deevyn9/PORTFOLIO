@@ -21,7 +21,7 @@ body {
 /***********************NAVBAR STYLING***********************/
 .navbar {
     width: 100%;
-    height: 8vh;
+    min-height: 8vh;
     background-color: var(--nav-bg);
     position: absolute;
     top: 0;
@@ -29,6 +29,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.5s ease-in-out;
 }
 
 .black {
@@ -525,7 +526,7 @@ fieldset {
 }
 
 .a {
-    background-color: rgba(256, 256, 256, 0.05);
+    background-color: rgba(256, 256, 256, 0.1);
     justify-content: space-evenly;
     align-content: flex-start;
     margin-left: 0;

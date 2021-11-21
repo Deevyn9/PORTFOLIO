@@ -159,11 +159,7 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.hero-icon {
-    width: 10px;
-    height: 10px;
+    overflow: hidden;
 }
 
 /*****************ABOUT SECTION************************/

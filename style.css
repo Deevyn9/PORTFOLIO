@@ -78,6 +78,7 @@ body {
     justify-content: space-between;
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }
 
 .close {
@@ -413,6 +414,11 @@ fieldset {
     width: 50px;
 }
 
+.fem {
+    width: 50px;
+    border-radius: 50%;
+}
+
 
 /*********MEDIA QUERIES*******************/
 @media (max-width: 768px) {
@@ -455,7 +461,7 @@ fieldset {
 
     .navbar-links.active {
         display: flex;
-        
+        /* position: relative;     */
     }
     /***********************MOBILE-ABOUT***************************/
     .p1 {

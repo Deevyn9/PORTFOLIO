@@ -125,15 +125,28 @@ h3 {
     z-index: 2;
 }
 
+.main-content h4 {
+    font-size: 25px;
+}
+
+.main-content h2 {
+    font-size: 35px;
+}
+
+.main-content h3 {
+    font-size: 30px;
+}
+
 .work-resume {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .resume-btn {
     border: 2px solid #af0a73fc;
     height: 40px;
-    width: 90px;
+    width: 45%;
     margin-bottom: 20px;
 }
 
@@ -159,7 +172,8 @@ h3 {
 .hero-sm {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     overflow: hidden;
 }
 
@@ -186,6 +200,8 @@ h3 {
 
 .p2 {
     color: #333;
+    margin-top: 0;
+    padding-bottom: 40px;
 }
 
 .about-main {
@@ -277,8 +293,8 @@ h3 {
 }
 
 .description {
-    letter-spacing: 2px;
     padding: 0 30px 20px 30px;
+    line-height: 25px;
 }
 
 .p-description {
@@ -409,7 +425,7 @@ fieldset {
 }
 
 .fem {
-    width: 50px;
+    width: 43px;
     border-radius: 50%;
 }
 
@@ -457,6 +473,18 @@ fieldset {
         display: flex;
         /* position: relative;     */
     }
+
+    .main-content h4 {
+        font-size: 20px;
+    }
+    
+    .main-content h2 {
+        font-size: 30px;
+    }
+    
+    .main-content h3 {
+        font-size: 25px;
+    } 
     /***********************MOBILE-ABOUT***************************/
     .p1 {
         font-size: 2rem;
@@ -517,6 +545,10 @@ fieldset {
 
 /****************************320px MOBILE PROJECT**************************/
 @media (max-width: 320px) {
+    .main-content h3 {
+        font-size: 20px;
+    } 
+
     .description {
         letter-spacing: 2px;
         padding: 0 15px 20px 15px;

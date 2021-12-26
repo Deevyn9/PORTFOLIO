@@ -6,14 +6,15 @@ toggleButton.addEventListener('click', () => {
     document.body.classList.toggle("close");
     document.body.classList.toggle("black");
     navbarLinks.classList.toggle('active');
+    document.body.classList.toggle('hidden');
 });
 
 window.addEventListener('scroll', function() {
     if (window.scrollY > 770) {
-    navBar.style.position = "sticky";
+    // navBar.style.position = "sticky";
     navBar.style.backgroundColor = "black";
     }else{
-    navBar.style.position = "absolute";
+    // navBar.style.position = "absolute";
     navBar.style.backgroundColor = "var(--nav-bg)";
     }
 });

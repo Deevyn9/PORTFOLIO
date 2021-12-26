@@ -23,4 +23,5 @@ function hideUl() {
     document.body.classList.toggle("close");
     navbarLinks.classList.toggle('active');
     document.body.classList.toggle("black");
+    document.body.classList.toggle('hidden');
 }

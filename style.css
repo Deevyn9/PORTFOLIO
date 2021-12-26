@@ -18,10 +18,6 @@ body {
     --toggle-btn: url(/icon-hamburger.svg);
 }
 
-.hidden {
-    overflow: hidden;
-}
-
 /***********************NAVBAR STYLING***********************/
 .navbar {
     width: 100%;
@@ -492,6 +488,10 @@ fieldset {
         font-size: 25px;
     } 
     /***********************MOBILE-ABOUT***************************/
+    .hidden {
+        overflow: hidden;
+    }
+
     .p1 {
         font-size: 2rem;
     }

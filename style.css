@@ -29,7 +29,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .black {
@@ -167,11 +167,19 @@ h3 {
   background-color: transparent;
   height: 100%;
   width: 100%;
-  transition: 1s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+.work {
+  background-color: #af0a73fc;
 }
 
 .btn-cta:hover {
   background-color: #af0a73fc;
+}
+
+.work:hover {
+  background-color: transparent;
 }
 
 .hero-sm {
@@ -328,24 +336,34 @@ h3 {
   width: 45%;
 }
 
-.repo-link,
-.site-btn {
+.link {
   padding: 10px;
-  color: #af0a73fc;
-  background-color: transparent;
   font-weight: 700;
   width: 100%;
   height: 100%;
   cursor: pointer;
   border-radius: 10px;
   border: 2px solid #af0a73fc;
-  transition: 1s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 
-.repo-link:hover,
-.site-btn:hover {
+.repo-link {
+  color: #af0a73fc;
+  background-color: transparent;
+}
+.site-btn {
   background-color: #af0a73fc;
   color: rgb(233, 210, 210);
+}
+
+.repo-link:hover {
+  background-color: #af0a73fc;
+  color: rgb(233, 210, 210);
+}
+
+.site-btn:hover {
+  background-color: transparent;
+  color: #af0a73fc;
 }
 
 /********************CONTACT SECTION**************************/
@@ -414,7 +432,7 @@ fieldset {
   font-weight: 700;
   border-radius: 10px;
   border: 2px solid #af0a73fc;
-  transition: 1s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 
 .submit-btn:hover {
